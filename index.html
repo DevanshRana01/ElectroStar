@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Electronics & Electricals</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    /* Navigation Bar */
+    nav {
+      background: #0f2027;
+      padding: 15px 20px;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #ff9800;
+    }
+
+    .hero {
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+    .hero h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+    }
+    .hero p {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+    }
+    .hero button {
+      background-color: #ff9800;
+      border: none;
+      padding: 15px 30px;
+      font-size: 1em;
+      color: white;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .categories {
+      padding: 50px 20px;
+      text-align: center;
+    }
+    .categories h2 {
+      margin-bottom: 30px;
+      font-size: 2em;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .features {
+      background: #203a43;
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+    }
+    .features h2 {
+      margin-bottom: 30px;
+      font-size: 2em;
+    }
+    .features p {
+      max-width: 600px;
+      margin: 0 auto 20px;
+    }
+    footer {
+      background: #0f2027;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <a href="#hero">Home</a>
+    <a href="#products">Products</a>
+    <a href="#features">Features</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="hero" id="hero">
+    <h1>Electronics & Electricals</h1>
+    <p>Your one-stop shop for innovation and quality.</p>
+    <button>Shop Now</button>
+  </div>
+
+  <!-- Product Categories -->
+  <div class="categories" id="products">
+    <h2>Our Products</h2>
+    <div class="grid">
+      <div class="card">Circuits</div>
+      <div class="card">Sensors</div>
+      <div class="card">Appliances</div>
+      <div class="card">Tools</div>
+    </div>
+  </div>
+
+  <!-- Features Section -->
+  <div class="features" id="features">
+    <h2>Why Choose Us?</h2>
+    <p>We provide top-notch electronics and electrical products with guaranteed quality, affordable pricing, and excellent customer support.</p>
+    <p>Innovation meets reliability — powering your future.</p>
+  </div>
+
+  <!-- Footer -->
+  <footer id="contact">
+    <p>&copy; 2026 Electronics & Electricals | Contact: info@electronics.com</p>
+  </footer>
+</body>
+</html>
